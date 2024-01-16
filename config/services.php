@@ -30,5 +30,10 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    'mal' => [
+        'key' => env('MAL_API_KEY'),
+        'app' => env('MAL_APP_NAME'),
+        'url' => env('MAL_BASE_URL'),
+    ],
 
 ];
